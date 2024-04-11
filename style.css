@@ -1,0 +1,137 @@
+body {
+    /* Name of property: customization */
+
+    background-color: black;
+    color: aquamarine;
+
+    /* color: rgb(red, green, blue);
+    color: rgb(0, 0, 0); */
+
+    /* color: rgba(red, green, blue, alpha)
+    color: rgba(255, 255, 255, 0.5)
+    alpha - от 0 до 1 - прозрачность цвета */
+
+    /* color: fff; hex code  */
+
+    font-size: 16px;
+    /* rem em %*/
+    line-height: 20px;
+    /* на 3-4 пикселя больше шрифта (8 у дизайнеров)*/
+
+    font-weight: 300;
+    /* light */
+    /* 100 - ultra-light 
+    200 - semi-light 
+    300 - light 
+    400 - normal / regular  
+    500 - medium
+    600 - semi-bold
+    700 - bold
+    800 - metallic
+    900 - black (double bold)*/
+
+    letter-spacing: 1px;
+    font-style: italic;
+    opacity: 1;
+    /* opacity: .5; (0.5)*/
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Roboto", sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /*Формат шрифта (отл-ся весом): otf ttf wow wow2 */
+
+}
+
+h2 {
+    background-color: cornflowerblue;
+
+    /* margin: 100px 200px 300px 400px; */
+    /* 100 - отступ сверху; 200 - отступ справа; 300 - отступ снизу; 400 - отступ слева */
+    /* margin: 100px; */
+    /* со всех сторон отступы одинаковые */
+    /* margin: 100px 200px; */
+    /* 100px - сверху и снизу; 200px - справа и слева */
+    /* margin: 100px 200px 300px; */
+    /* 100px - сверху;  200 - справа и слева; 300 - снизу */
+
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px; */
+
+    /* margin-top: -50px; */
+    /* Тоже можно, наедет на соседний эл-т сверху */
+
+    /* margin-left: auto; */
+    /* Прижмется к правому краю */
+
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* Элемент станет по центру */
+
+    width: 500px;
+    /* px / % */
+    height: 30px;
+    /* min-width: 500px;
+    min-height: 500px; */
+
+    /* padding: 100px; */
+    /* 
+    - нет отрицательных значений
+    - нет ауто
+    - по умолчанию растягивает блок*/
+    box-sizing: border-box;
+    /* запрещает расширение на размеры заданные в padding, если они превышают width и height*/
+    /* box-sizing: content-box; */
+    /* разрешает расширение */
+
+    /* h1 - margin-bottom: 100px;
+       h2  margin-top: 100px;
+       отступы схлопнутся и между h1 и h2 будет 100px*/
+
+
+    /* <div>
+          <h1>
+       </div>
+
+    h1 - margin-top: 100px;
+    - либо не отступит 
+    - либо отступит вместе с div
+    Поэтому 1 эл-ту в блоке задаем отступ через padding */
+
+    /* text-align: center; */
+    /* center / lefr / right /  justify (по ширине) */
+
+
+    text-indent: 50px;
+    /* Red string */
+
+    text-decoration: underline;
+    /* underline - подчеркивание текста
+       line-through - зачеркивание текста ...*/
+}
+
+
+/* body p {
+    color: chocolate;
+} */
+
+html body div p {
+    color: darkblue;
+}
+
+p {
+    color: cornflowerblue;
+}
+
+.red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+}
+
+.text {
+    width: 50px;
+}
