@@ -135,3 +135,102 @@ p {
 .text {
     width: 50px;
 }
+
+
+
+/* ON PARA 2024.04.16 */
+
+ul {
+    /* list-style: disc; */
+    /* list-style: none; */
+    /* list-style: url('https://kartinki.pics/pics/uploads/posts/2022-09/1662623688_18-kartinkin-net-p-morda-tigra-vektornii-risunok-vkontakte-18.png'); */
+    list-style: georgian;
+    padding: 0;
+    margin: 0;
+}
+
+ul li::before {
+    content: '-';
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 6px;
+    width: 6px;
+    left: 0;
+    background-color: red;
+    border-radius: 50%; */
+}
+
+table {
+    text-align: center;
+}
+
+.background1 {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    background-image: url(images/vektorn_grafiki.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    /* background-size: cover; */
+    background-size: contain;
+    background: #000 url(images/background.jpg) no-repeat center;
+
+    border: 10px orange solid;
+    /* border: 10px orange dashed;
+    border: 10px orange dotted;
+    border: 10px orange double;
+    border-width: 50px;
+    border-color: blueviolet;
+    border-style: dashed;
+    border-top: 10px red solid; */
+    box-sizing: border-box;
+    border-radius: 50px;
+    /* fancy border radius generator  */
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    border-radius: 10px 0;
+    /* border-bottom-right-radius: 10px; */
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, .5);
+    /* Смещение по оси X , по оси Y, радиус размытия, размытие по Гауссу */
+    /* box shadow generator */
+
+
+
+}
+
+.background2 {
+    height: 500px;
+    width: 500px;
+    background-color: cornflowerblue;
+    border: 10px orange solid;
+    border-radius: 10px 0;
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, .5);
+
+    position: relative;
+}
+
+.block1 {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+
+    /* position: static; по умолчанию */
+
+    /* position: relative; */
+    /* Global coordinate: top, right, bottom, left */
+    /* z-index: 50px;   сдвиг по оси z*/
+
+    /* position: absolute; */
+
+    /* position: fixed;
+    top: 10px;
+    right: 50px; */
+
+    position: sticky;
+}
+
+.block2 {
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+}
