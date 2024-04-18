@@ -207,6 +207,20 @@ table {
     box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, .5);
 
     position: relative;
+
+    font-size: 0;
+    display: flex;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+
+    /* align-items: strech / center / flex-start / flex-end; */
+
+    /* justify-content: space-between / space-around / space-evenly /
+    / center / flex-start / fex-end; */
+
+    /* flex-direction: row / row-reverse / column / column-reverse; */
+
 }
 
 .block1 {
@@ -226,11 +240,33 @@ table {
     top: 10px;
     right: 50px; */
 
-    position: sticky;
+    /* position: sticky; */
+
+    display: inline;
+    display: block;
+    display: none;
+
+    display: table;
+    display: table-row;
+    display: table-cell;
+
+    display: inline-block;
+    vertical-align: middle;
+
 }
 
 .block2 {
     height: 300px;
     width: 300px;
     background-color: burlywood;
+    /* display: inline; */
+    display: inline-block;
+}
+
+.block3 {
+    height: 300px;
+    width: 300px;
+    background-color: darkcyan;
+    /* display: inline; */
+    display: inline-block;
 }
